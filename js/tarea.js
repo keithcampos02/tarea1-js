@@ -135,20 +135,13 @@ let pokemones = [
 
 // 7-
 
+let numero = parseFloat(prompt("Ingresa un número:"));
 
-// let numero = parseFloat(prompt("ingresa un numero:"));
-
-// if (numero >= 1 && y numero <= 10) {
-//     console.log( "el numero"+numero+"esta en el rango de 1 a 10")
-// } else {
-//     console.log()
-// }
-
-
-
-
-
-
+if (numero >= 1 && numero <= 10) {
+    console.log("el numero"+numero+"esta entre 1 y 10")
+} else {
+    console.log("el numero"+numero+"no esta entre 1 y 10")
+}
 
 
 
@@ -174,25 +167,3 @@ console.log("el valor de pi es :"+pi);
 
 
 // 10-
-
-// let edaad = parseInt(prompt("Ingresa tu edad:"));
-// let nacionalidad = prompt("Ingresa tu nacionalidad:");
-
-// function puedevotar(edaad,nacionalidad) {
-// const edadminimaparavotar = 18;
-// const nacionalidadparavotar = costarricense;
-
-// if (edaad >= edadminimaparavotar && nacionalidad = nacionalidadparavotar={}) {
-    
-// } else {
-    
-// }
-
-
-
-
-
-// }
-
-
-// 11-
