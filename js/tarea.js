@@ -3,7 +3,7 @@
 function saludar(params) {
 
 
-    console.log("hola usuario")
+    console.log("hola Keith")
 
 }
 
@@ -167,3 +167,23 @@ console.log("el valor de pi es :"+pi);
 
 
 // 10-
+
+let edaad = parseInt(prompt("Ingresa tu edad:"));
+let nacionalidad = prompt("Ingresa tu nacionalidad:");
+
+function puedevotar (edaad,nacionalidad){
+
+if (edaad >= 18 && (nacionalidad === "peruana" || nacionalidad === "colombiana")) {
+   return true; 
+} else {
+   return false;
+}
+}
+
+if (puedevotar(edaad, nacionalidad)) {
+    console.log("puede votar");
+} else {
+    console.log("no puedes votar");
+}
+
+
