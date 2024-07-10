@@ -206,3 +206,4 @@ console.log("No eres escolar ni adulto mayor ")
 }
 
 
+// tarea js lista 1
