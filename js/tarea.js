@@ -189,6 +189,20 @@ if (puedevotar(edaad, nacionalidad)) {
 
 
 // 11-
+let eedad = parseInt(prompt("Ingresa tu edad"));
 
+let resultado = verificaredad("eedad");
+
+function verificaredad(eedad) {
+
+    if (eedad >= 6 && eedad <= 18) {
+        console.log("estas en edad escolar")
+    } else if (eedad >= 65) { 
+        console.log("eres adulto mayor")
+    }else {
+console.log("No eres escolar ni adulto mayor ")
+    }
+
+}
 
 
